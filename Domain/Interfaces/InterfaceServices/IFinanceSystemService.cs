@@ -1,0 +1,15 @@
+﻿using Finance.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Domain.Interfaces.InterfaceServices
+{
+    public interface IFinanceSystemService
+    {
+        Task AddFinanceSystem(FinanceSystem financeSystem);
+        Task UpdateFinanceSystem(FinanceSystem financeSystem);
+    }
+}
